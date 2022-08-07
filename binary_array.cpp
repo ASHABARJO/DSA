@@ -1,6 +1,7 @@
 //Binary search is a searching algorithm which search element in sorted array
 #include<bits/stdc++.h>
 // #define N 10
+using namespace std;
 int binary_search(int arr[],int n,int k){
 int s=0;
 int e=n;
@@ -16,7 +17,6 @@ s=mid+1;
 }
 return -1;
 }
-using namespace std;
 int main(){
     int n;
     cin>>n;
